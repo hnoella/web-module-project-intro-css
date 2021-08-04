@@ -96,7 +96,6 @@ q {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid black;
 }
 
 /* General styles*/
@@ -125,8 +124,10 @@ a {
 }
 
 /* header section stles*/
+
 nav {
-  padding: 2% o;
+  background-color: #5ed3eb;
+  padding: 2% 0;
 }
 
 nav a {
@@ -169,4 +170,13 @@ nav a {
 .right {
   width: 60%;
   position: absolute;
+}
+
+.main div {
+  background-color: #ddb9a3;
+  width: 80%;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
 }
