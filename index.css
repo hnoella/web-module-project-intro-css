@@ -65,7 +65,7 @@ legend {
   outline: 0;
   padding: 0;
   margin: 0;
-  border: 0;
+  border: red solid 1px;
 }
 /* remember to define focus styles! */
 :focus {
@@ -126,13 +126,15 @@ a {
 /* header section stles*/
 
 nav {
-  background-color: #5ed3eb;
   padding: 2% 0;
+  color: #f9e7dc;
+  margin: 5% 0;
 }
 
 nav a {
   display: inline-block;
   padding: 1% 0;
+  margin: 0 auto;
   width: 10%;
   border-radius: 10px;
   text-align: center;
@@ -146,7 +148,7 @@ nav a {
 
 .blue {
   background-color: #5ed3eb;
-  margin: 24%;
+  margin: 10%;
 }
 
 .yellow {
@@ -200,6 +202,34 @@ nav a {
   margin: 2% 0;
 }
 
-div img .fire {
-  width: 20px;
+.fire {
+  width: 30%;
+  margin: 0% auto;
+  text-align: center;
+}
+
+.fire img {
+  width: 200px;
+}
+
+.bus {
+  width: 30%;
+  margin: 0% auto;
+  text-align: center;
+}
+
+.bus img {
+  width: 200px;
+}
+
+footer {
+  background-image: url("/assets/footer_img.jpg");
+  height: 400px;
+  margin: 5% 0;
+}
+
+.footernav {
+  color: #f9e7dc;
+  height: 400px;
+  margin: 5% 0;
 }
